@@ -1,0 +1,11 @@
+{
+    "id":"98-template",
+    "name":"98 Template",
+    "description":"This is a Windows 98 template",
+    "image":"image.png",
+    "pages":{
+      "name":"index.html",
+      "summary":"index.html",
+      "education":"index.html"
+    }
+}
