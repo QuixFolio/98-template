@@ -167,6 +167,10 @@
           "type": "string",
           "default": ""
         },
+        "image": {
+          "type": "image",
+          "default": ""
+        },
         "description": {
           "type": "string",
           "default": ""
