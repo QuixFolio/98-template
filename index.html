@@ -22,19 +22,6 @@
         </div>
     </nav>
 
-    <!-- <div class="window">
-        <div>
-            <div>
-                <img id="picture">
-            </div>
-            <div class="title-bar">
-                <div class="title-bar-text">
-                    <p>This is everything about me.</p>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
     <section class="window" style='margin: 30px; margin-top: 30px;'>
         <h3 class="title-bar"> <p style="color: antiquewhite; font-size: large;"> Summary </p> </h3>
         <div>
@@ -53,14 +40,14 @@
                     <span style="font-size: large; font-weight: bold;">University</span>
                     <div class="lists">
                         <p></p>
-                        <p><span start-year>Start Year</span> - <span end-year>End Year</span></p></i>
-                        <ul class="nes-list is-circle" style='margin-bottom: 0;'>
+                        <p><span startYear>Start Year</span> - <span endYear>End Year</span></p></i>
+                        <ul style='margin-bottom: 0;'>
                             <p></p>
                             <li major> Major</li>
                             <p></p>
-                            <li add-info> Additional Info </li>
+                            <li addInfo> Additional Info </li>
                             <p></p>
-                            <li relevant-course>Relevant Coursework</li>
+                            <li releventCoursework>Relevant Coursework</li>
                             <p></p>
                             <li><u>GPA:</u><span gpa> GPA</span></li>
                         </ul>
@@ -70,12 +57,29 @@
         </div>
     </section>
 
-    <!-- <div class="col-md-12 col-sm-12 col-xs-12">
+    <section class="window" style='margin: 30px; margin-top: 30px;'>
+        <h3 class="title-bar"><p style="color: antiquewhite; font-size: large;"> Skills</p></h3>
+        <div id ="skills">
+            <div>
+                <h5><u skills class="window-body" style="font-size: medium;">Skills</u></h5>
+            </div>
 
-        <section class="nes-container with-title is-dark" style='margin: 20px; margin-top: 30px;'>
-        <h3 class="title">Achievements</h3>
+        </div>
+    </section>
+
+    <section class="window" style='margin: 30px; margin-top: 30px;'>
+        <h3 class="title-bar"><p style="color: antiquewhite; font-size: large;"> Publications</p></h3>
+        <div id="publication">
+            <div>
+                <h4 publication class="window-body" style="font-size: medium;">Publication</h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="window" style='margin: 30px; margin-top: 30px;'>
+        <h3 class="title-bar"><p style="color: antiquewhite; font-size: large;">Achievements</p></h3>
         <div class="lists">
-            <ul id="achievements" class="nes-list is-circle" style='margin-bottom: 0;'>
+            <ul id="achievements" class="window-body" style='font-size: medium; margin-bottom: 0;'>
                 <li>
                     <span name>Name</span>
                     <span date>Date</span>
@@ -83,94 +87,94 @@
                 </li>
             </ul>
         </div>
-        </section>
+    </section>
 
-        <section class="nes-container with-title is-dark" style='margin: 30px; margin-top: 30px;'>
-            <h3 class="title">Skills</h3>
-            <div id ="skills">
+    <section class="window" style='margin: 30px; margin-top: 30px;'>
+        <h3 class="title-bar"><p style="color: antiquewhite; font-size: large;"> Certifications</p></h3>
+        <div id="certifications">
+            <div  style="display: flex;">
                 <div>
-                    <h5><u skills>Skills</u></h5>
-                </div>
-
-            </div>
-        </section>
-
-        <section class="nes-container with-title is-dark" style='margin: 30px; margin-top: 30px;'>
-            <h3 class="title">Publications</h3>
-            <div  id="publication">
-                <div>
-                    <h4 publication>Publication</h4>
-                </div>
-            </div>
-        </section>
-
-        <div class="col-md-12 col-sm-12 col-xs-12" style='margin: 22px; margin-top: 30px;'>
-            <h3 class="topic-title">
-                <i class="nes-icon star"></i> Work Experience
-            </h3>
-            <section class="nes-container is-rounded" id="work-experience">
-            <div class="row" style='margin-top: 30px;'>
-                <div class="col-xs-2">
                     <img image style='width: 100px; height: 100px; image-rendering: pixelated;'>
                 </div>
-                <div class="col-xs-10">
-                    <h3 company>Company</h3>
-                    <p position>Position</p>
-                    <p location>Location</p>
-                    <p><span start-date>Start Date</span> - <span end-date>End Date</span></p></i>
+                <div>
+                    <h4 certification class="window-body" style="font-size: medium;">Certificate</h4>
+                    <div class="lists">
+                        <ul style='margin-bottom: 0; font-size: medium;' description>
+                            <p><li>Description</li></p>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="window" style='margin: 30px; margin-top: 30px;'>
+        <h3 class="title-bar"><p style="color: antiquewhite; font-size: large;">
+           Work Experience
+        </p></h3>
+        <section class="window-body" id="workExperience">
+        <div style="display: flex;">
+            <div>
+                <img image style='width: 100px; height: 100px; image-rendering: pixelated;'>
+            </div>
+            <div>
+                <h3 company style="font-size: large;">Company</h3>
+                <p position style="font-size: medium;">Position</p>
+                <p location style="font-size: medium;">Location</p>
+                <p><span startDate style="font-size: medium;">Start Date</span> - <span endDate style="font-size: medium;">End Date</span></p></i>
+                <div>
                     <div>
-                        <div>
-                            <div class="lists">
-                                <ul class="nes-list is-circle" style='margin-bottom: 0;' summary>
-                                    <p><li>Summary</li></p>
-                                </ul>
-                            </div>
+                        <div class="lists">
+                            <ul style='margin-bottom: 0; font-size: medium;' summary>
+                                <p><li>Summary</li></p>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-            </section>
         </div>
+        </section>
+    </div>
 
-        <div class="col-md-12 col-sm-12 col-xs-12" style='margin: 22px; margin-top: 30px;'>
-            <h3 class="topic-title">
-                <i class="nes-icon star"></i> Projects
-            </h3>
-            <section class="nes-container is-rounded" id="projects">
-            <div class="row" style='margin-top: 30px;'>
-                <div class="col-xs-2">
-                    <img image style='width: 100px; height: 100px; image-rendering: pixelated;'>
-                </div>
-                <div class="col-xs-10">
-                    <h3 name>Name</h3>
-                    <a source>Source</a>
-                    <a demo>Demo-URL</a>
-                    <p><span start-date>Start Date</span> - <span end-date>End Date</span></p></i>
+    <div class="window" style='margin: 30px; margin-top: 30px;'>
+        <h3 class="title-bar"><p style="color: antiquewhite; font-size: large;">
+           Projects
+        </p></h3>
+        <section class="window-body" id="projects">
+        <div style="display: flex;">
+            <div>
+                <img image style='width: 100px; height: 100px; image-rendering: pixelated;'>
+            </div>
+            <div>
+                <h3 name style="font-size: large;">Name</h3>
+                <a source style="font-size: medium;">Source</a>
+                <p></p>
+                <a demo style="font-size: medium;">Demo-URL</a>
+                <p><span start-date style="font-size: medium;">Start Date</span> - <span end-date style="font-size: medium;">End Date</span></p></i>
+                <div>
                     <div>
-                        <div>
-                            <div class="lists">
-                                <ul class="nes-list is-circle" style='margin-bottom: 0;' description>
-                                    <p><li>Description</li></p>
-                                </ul>
-                            </div>
+                        <div class="lists">
+                            <ul style='margin-bottom: 0; font-size: medium;' description>
+                                <p><li>Description</li></p>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-            </section>
         </div>
-
-        <section class="nes-container with-title is-dark" style='margin: 30px; margin-top: 30px;'>
-            <h3 class="title">Connect with me</h3>
-            <div id="links">
-                <div>
-                <a link>
-                    Link
-                </a>
-                </div>
-            </div>
         </section>
-    </div> -->
+    </div>
+
+    <section class="window" style='margin: 30px; margin-top: 30px;'>
+        <h3 class="title-bar" style="color: antiquewhite; font-size: large;">Connect with me</h3>
+        <div class="window-body" style="font-size: medium;" id="links">
+            <div>
+            <a link>
+                Link
+            </a>
+            </div>
+        </div>
+    </section>
 
 </body>
 

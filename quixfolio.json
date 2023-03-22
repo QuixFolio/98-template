@@ -159,6 +159,20 @@
         }
       }
     },
+    "certifications": {
+      "type": "array",
+      "page": "index.html",
+      "items": {
+        "certification": {
+          "type": "string",
+          "default": ""
+        },
+        "description": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
     "links": {
       "type": "array",
       "page": "index.html",
