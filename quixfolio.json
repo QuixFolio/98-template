@@ -2,6 +2,7 @@
     "id":"98-template",
     "name":"98 Template",
     "description":"This is a Windows 98 template",
+    "tags":["retro"],
     "image":"image.png",
     "schema": {
     "cloneName": {
